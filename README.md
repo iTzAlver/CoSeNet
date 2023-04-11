@@ -1,8 +1,30 @@
 # CoSeNet: An excellent Approach for Optimal Segmentation of Correlation Matrices
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/iTzAlver/cosenet/main/doc/multimedia/cosenet_logo.png" width="400px">
+</p>
 
+<p align="center">
+    <a href="https://github.com/iTzAlver/CoSeNet/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/iTzAlver/CoSeNet?color=purple&style=plastic" /></a>
+    <a href="https://github.com/iTzAlver/CoSeNet/tree/main/test">
+        <img src="https://img.shields.io/badge/tests-passed-green?color=green&style=plastic" /></a>
+    <a href="https://github.com/iTzAlver/CoSeNet/blob/main/requirements.txt">
+        <img src="https://img.shields.io/badge/requirements-pypi-red?color=red&style=plastic" /></a>
+    <a href="https://htmlpreview.github.io/?https://github.com/iTzAlver/CoSeNet/blob/main/doc/CoSeNet.html">
+        <img src="https://img.shields.io/badge/doc-available-green?color=yellow&style=plastic" /></a>
+    <a href="https://github.com/iTzAlver/CoSeNet/releases/tag/1.1.0-release">
+        <img src="https://img.shields.io/badge/release-1.1.0-white?color=white&style=plastic" /></a>
+</p>
 
-# CoSeNet - 1.0.0.
+<p align="center">
+    <a href="https://github.com/iTzAlver/BaseNet-API/">
+        <img src="https://img.shields.io/badge/dependencies-BaseNetAPI-red?color=orange&style=for-the-badge" /></a>
+    <a href="https://www.ray.io/">
+        <img src="https://img.shields.io/badge/dependencies-ray-red?color=blue&style=for-the-badge" /></a>
+</p>
+
+# CoSeNet - 1.1.0.
 
 The proposed approach is known as CoSeNet (Correlation Segmentation
 Network), and is based on a four-layer architecture that includes several processing layers: an input

@@ -1,15 +1,15 @@
 # CoSeNet: An excellent Approach for Optimal Segmentation of Correlation Matrices
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/iTzAlver/cosenet/main/doc/multimedia/cosenet_logo.png" width="400px">
+    <img src="https://raw.githubusercontent.com/iTzAlver/CoSeNet/blob/master/doc/multimedia/cosenet_logo.png" width="400px">
 </p>
 
 <p align="center">
     <a href="https://github.com/iTzAlver/CoSeNet/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/iTzAlver/CoSeNet?color=purple&style=plastic" /></a>
-    <a href="https://github.com/iTzAlver/CoSeNet/tree/main/test">
+    <a href="https://github.com/iTzAlver/CoSeNet/tree/master/test">
         <img src="https://img.shields.io/badge/tests-passed-green?color=green&style=plastic" /></a>
-    <a href="https://github.com/iTzAlver/CoSeNet/blob/main/requirements.txt">
+    <a href="https://github.com/iTzAlver/CoSeNet/blob/master/requirements.txt">
         <img src="https://img.shields.io/badge/requirements-pypi-red?color=red&style=plastic" /></a>
     <a href="https://htmlpreview.github.io/?https://github.com/iTzAlver/CoSeNet/blob/main/doc/CoSeNet.html">
         <img src="https://img.shields.io/badge/doc-available-green?color=yellow&style=plastic" /></a>

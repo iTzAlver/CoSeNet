@@ -1,4 +1,4 @@
-# CoSeNet: An excellent Approach for Optimal Segmentation of Correlation Matrices
+# CoSeNet: An Excellent Approach for Optimal Segmentation of Correlation Matrices.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/iTzAlver/CoSeNet/blob/master/doc/multimedia/cosenet_logo.png" width="400px">

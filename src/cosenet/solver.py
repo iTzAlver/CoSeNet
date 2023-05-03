@@ -225,12 +225,6 @@ class CorrelationSolver:
         return s0
 
     @staticmethod
-    def __converge_by_columns(input_matrix: np.ndarray, convergence: np.ndarray) -> np.ndarray:
-        converged_matrix = input_matrix - convergence
-        converged_matrix[:, 0] = 1
-        return converged_matrix
-
-    @staticmethod
     def __threshold__(input_vector: np.ndarray, threshold: float):
         iv = input_vector.copy()
         iv[iv < threshold] = 0

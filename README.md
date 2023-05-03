@@ -24,7 +24,7 @@
         <img src="https://img.shields.io/badge/dependencies-ray-red?color=blue&style=for-the-badge" /></a>
 </p>
 
-# CoSeNet - 1.1.0.
+# CoSeNet - 1.3.0.
 
 The proposed approach is known as CoSeNet (Correlation Segmentation
 Network), and is based on a four-layer architecture that includes several processing layers: an input
@@ -53,6 +53,10 @@ ISDEFE Chair of Research.
    * Fitness method: Genetic and PSO algorithms.
    * Solve: Pipeline solver.
    * Pre-trained models: Ridge and MLP for 16 throughput.
+
+### 1.3.0
+1. Major bug fixing.
+2. Paper experiments included.
 
 ## Install
 

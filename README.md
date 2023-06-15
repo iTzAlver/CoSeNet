@@ -1,7 +1,7 @@
 # CoSeNet: An Excellent Approach for Optimal Segmentation of Correlation Matrices.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/iTzAlver/CoSeNet/blob/master/doc/multimedia/cosenet.png" width="400px">
+    <img src="./doc/multimedia/cosenet.png" width="400px">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
     <a href="https://github.com/iTzAlver/CoSeNet/blob/master/requirements.txt">
         <img src="https://img.shields.io/badge/requirements-pypi-red?color=red&style=plastic" /></a>
     <a href="https://htmlpreview.github.io/?https://github.com/iTzAlver/CoSeNet/blob/main/doc/CoSeNet.html">
-        <img src="https://img.shields.io/badge/doc-available-green?color=yellow&style=plastic" /></a>
+        <img src="https://img.shields.io/badge/doc-not available-green?color=red&style=plastic" /></a>
     <a href="https://github.com/iTzAlver/CoSeNet/releases/tag/1.3.0-release">
         <img src="https://img.shields.io/badge/release-1.3.0-white?color=white&style=plastic" /></a>
 </p>
@@ -98,6 +98,15 @@ You can use the package easily by importing the main class:
 
     from cosenet import CoSeNet
 
+**DISCLAIMER: CoSeNet makes use of BaseNetAPI to work with efficient and easy-to-use databases and models. It also contains 
+optimization packages using Ray for distributed computing. It may take quite long to install, but the
+final model will not have these dependencies.**
+
+**MAKE SURE YOUR PYTHON ENVIRONMENT HAS RAY INSTALLED: PIP HAS SOME PROBLEMS INSTALLING IT, YOU MAY 
+NEED TO INSTALL IT MANUALLY AND HAS NO DIST FOR PYTHON 11. YOU NEED PYTHON 9 OR 10.**
+
+**MAKE SURE EVERYTHING WORKS FINE RUNNING ```./test/test.py```**
+
 Then, you can create an instance of the class and use the methods:
 
     number_of_matrix_to_solve = 600
@@ -122,14 +131,14 @@ otherwise.
 
 You can find the documentation of the package in the repository in the doc folder.
 
-    https://github.com/iTzAlver/cosenet/tree/master/doc
+    https://github.com/iTzAlver/[...]
 
 You can also find the research article in the following link:
 
-    https://arxiv.org/AWAITING-DOI
+    AWAITING-DOI
 
 ### Cite as
 
 ~~~
-Awaiting for citation (ArXiv)
+Awaiting for citation.
 ~~~

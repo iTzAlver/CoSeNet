@@ -43,7 +43,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
         'License :: OSI Approved :: Apache Software License'
     ],
-    python_requires='>=3.8',
+    python_requires='==3.9',
     # install_requires=['Pillow'],
     extras_require={
         'dev': ['check-manifest'],

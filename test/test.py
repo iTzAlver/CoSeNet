@@ -20,7 +20,7 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO)
     logging.info(f'[+] CoSeNet test connected (v{cosenet_version}).')
     logging.info('[i] Importing database.')
-    db = BaseNetDatabase.load('./wikipedia_dataset_256.db')
+    db = BaseNetDatabase.load('./test.db')
     db.xtrain = db.xtrain[:][:80][:80]
     db.ytrain = db.ytrain[:][:80]
     db.xtest = db.xtest[:][:80][:80]

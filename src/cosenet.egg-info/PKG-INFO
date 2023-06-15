@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: cosenet
-Version: 1.3.0
+Version: 1.3.1
 Summary: CoSeNet: AN EXCELLENT APPROACH FOR SEGMENTATION OF CORRELATION MATRICES
 Home-page: https://github.com/iTzAlver/cosenet.git
 Author: Palomo-Alonso, Alberto
@@ -14,7 +14,7 @@ Classifier: Topic :: Software Development :: Build Tools
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: OS Independent
 Classifier: License :: OSI Approved :: Apache Software License
-Requires-Python: >=3.8
+Requires-Python: ==3.9
 Description-Content-Type: text/markdown
 Provides-Extra: dev
 License-File: LICENSE
@@ -33,7 +33,7 @@ License-File: LICENSE
     <a href="https://github.com/iTzAlver/CoSeNet/blob/master/requirements.txt">
         <img src="https://img.shields.io/badge/requirements-pypi-red?color=red&style=plastic" /></a>
     <a href="https://htmlpreview.github.io/?https://github.com/iTzAlver/CoSeNet/blob/main/doc/CoSeNet.html">
-        <img src="https://img.shields.io/badge/doc-available-green?color=yellow&style=plastic" /></a>
+        <img src="https://img.shields.io/badge/doc-not available-green?color=red&style=plastic" /></a>
     <a href="https://github.com/iTzAlver/CoSeNet/releases/tag/1.3.0-release">
         <img src="https://img.shields.io/badge/release-1.3.0-white?color=white&style=plastic" /></a>
 </p>
@@ -118,6 +118,15 @@ performing fine-tuning with a few samples from the database.
 You can use the package easily by importing the main class:
 
     from cosenet import CoSeNet
+
+**DISCLAIMER: CoSeNet makes use of BaseNetAPI to work with efficient and easy-to-use databases and models. It also contains 
+optimization packages using Ray for distributed computing. It may take quite long to install, but the
+final model will not have these dependencies.**
+
+**MAKE SURE YOUR PYTHON ENVIRONMENT HAS RAY INSTALLED: PIP HAS SOME PROBLEMS INSTALLING IT, YOU MAY 
+NEED TO INSTALL IT MANUALLY AND HAS NO DIST FOR PYTHON 11. YOU NEED PYTHON 9 OR 10.**
+
+**MAKE SURE EVERYTHING WORKS FINE RUNNING ```./test/test.py```**
 
 Then, you can create an instance of the class and use the methods:
 

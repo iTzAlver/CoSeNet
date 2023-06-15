@@ -16,7 +16,7 @@ REQUIREMENTS = ['basenet-api>=1.5.3',
 
 setuptools.setup(
     name='cosenet',
-    version='1.3.0',
+    version='1.3.1',
     author='Palomo-Alonso, Alberto',
     author_email='a.palomo@edu.uah',
     description='CoSeNet: AN EXCELLENT APPROACH FOR SEGMENTATION OF CORRELATION MATRICES',

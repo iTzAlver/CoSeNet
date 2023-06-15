@@ -107,7 +107,7 @@ class CorrelationSolver:
                                  number_of_individuals=individuals,
                                  new_individuals_per_epoch=new_individuals,
                                  computational_cores=cores,
-                                 mutation_variance=0.1)
+                                 mutation_variance=0.1, dashboard=False)
         else:
             bnh = BaseNetPso(_fitness,
                              number_of_individuals=individuals,

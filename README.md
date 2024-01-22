@@ -135,10 +135,19 @@ You can find the documentation of the package in the repository in the doc folde
 
 You can also find the research article in the following link:
 
-    AWAITING-DOI
+    [j.dsp.2023.104270](https://doi.org/10.1016/j.dsp.2023.104270)
 
 ### Cite as
 
 ~~~
-Awaiting for citation.
+@article{PALOMOALONSO2024104270,
+title = {CoSeNet: A novel approach for optimal segmentation of correlation matrices},
+journal = {Digital Signal Processing},
+volume = {144},
+pages = {104270},
+year = {2024},
+issn = {1051-2004},
+doi = {https://doi.org/10.1016/j.dsp.2023.104270},
+author = {A. Palomo-Alonso and D. Casillas-Pérez and S. Jiménez-Fernández and A. Portilla-Figueras and S. Salcedo-Sanz}
+}
 ~~~
